@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Cell</title>
+  <link rel="stylesheet" href="placement style.css">
+</head>
+<body>
+  <header class="container">
+    <div class="page-header">
+        <div class="logo">
+            <a href="#">Placement Cell</a>
+        </div>
+        <ul>
+          <li><a href="#Dashboard">Dashboard</a></li>
+          <li><a href="jobs.html" >Jobs</a></li>
+          <li><a href="contact.html" >Contact</a></li>
+        </ul>
+        
+    </div>
+</header>
+
+
+    <section>
+      <h2>Team career camp</h2>
+      <p>Welcome to our placement cell website. We help students find job opportunities and connect with recruiters.</p>
+    </section>
+ 
+    <div class="login-container">
+      <h3>Add New Students</h3>
+      
+       
+          <label for="username">Name:</label>
+          <input type="text" id="input-box" name="username" required>
+       
+          <label for="Age">Age:</label>
+          <input type="number" id="input-box" name="Age" required>
+       
+          <label for="Gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="select">select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="username">College:</label>
+          <input type="text" id="input-box" name="College name" required>
+
+        
+
+
+          <label for="username">Course:</label>
+          <select id="input-box" name="Course">
+            <option value="select">select</option>
+            <option value="number">Computer science and engineering</option>
+            <option value="number">BCA</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="username">Batch:</label>
+          <select id="input-box" name="Batch">
+            <option value="select">select</option>
+            <option value="number">2021-2025</option>
+            <option value="number">2022-2026</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="username">status:</label>
+          <input type="text" id="input-box" name="status" required>
+
+          <label for="username">Dsa score:</label>
+          <input type="number" id="input-box" name="score" required>
+
+          <label for="username">Web score:</label>
+          <input type="number" id="input-box" name="score" required>
+          
+          <button onclick="addTask()">Add</button>
+          
+      </form>
+    </div>
+       
+   
+    <div class="login-container"> 
+        <h3>Create new interview <br>in campus  </h3>
+       
+            <label for="username">Company:</label>
+            <input type="text" id="input-box" name="username" required>
+         
+            <label for="Date">Date:</label>
+            <input type="date" id="Date" name="Date" required>
+
+            <button onclick="addTask()">Add</button> 
+        </form>
+    </div>
+
+    <div class="login-container"> 
+      <h3>Create new interview <br> out campus </h3>
+     
+          <label for="username">Company:</label>
+          <input type="text" id="input-box" name="username" required>
+       
+          <label for="Date">Date:</label>
+          <input type="date" id="Date" name="Date" required>
+
+          <button onclick="addTask()">Add</button> 
+      </form>
+  </div>
+  <footer>
+    <p>Copyright &copy; 2024 Placement Cell by Shumail Rahat Khan || All Rights Reserved</p>
+  </footer>
+  <script src="placement script.js"></script>
+</body>
+</html>

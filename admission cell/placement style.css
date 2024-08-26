@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image.webp);
+    color: white;
+  }
+  
+  header {
+    background-color: #3975b5;
+    color: aqua;
+    padding: 10px 20px;
+  }
+ 
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    
+}
+
+.logo a {
+  color: aqua;
+    text-decoration: none;
+}
+
+
+
+   div ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  
+ ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: fixed;
+    font-size: 25px;
+    background-color:#3975b5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+/*   
+  .div.login-container{
+    display: grid;
+  } */
+
+  
+    
+  .login-container {
+    display: inline-table;
+    max-width: 400px;
+    margin: 100px 100px;
+    padding: 40px;
+    background-color: #3975b5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .h3{
+    text-align: center;
+    color: red;
+  }
+
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #3975b5;
+    border-radius: 5px;
+  }
+  
+select{
+    width: 105%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #3975b5;
+    border-radius: 5px;
+ } 
+
+
+  button {
+    width: 105%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  } 
+
+   h2 , p {
+    font-size: 25px;
+    color:aqua;
+   }
+
+
+
+
